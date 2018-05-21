@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>这只是个stust的测试 | Hello,everyOne</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="复习笔记##Strust2  Java 中常用的框架 SSH Strust2 Spring Hibernate   SSM Spring MVC Spring(Spring boot) Mybatis(Ibatis)     框架运行的流程(Strust2) Struts2是一个基于MVC设计模式的Web应用框架，它本质上相当于一个servlet，在MVC设计模式中，Struts2作为控制器(Co">
+<meta name="keywords" content="Stust,复习,Servlet框架">
+<meta property="og:type" content="article">
+<meta property="og:title" content="这只是个stust的测试">
+<meta property="og:url" content="http://yoursite.com/2017/05/21/Stust2复习/index.html">
+<meta property="og:site_name" content="Hello,everyOne">
+<meta property="og:description" content="复习笔记##Strust2  Java 中常用的框架 SSH Strust2 Spring Hibernate   SSM Spring MVC Spring(Spring boot) Mybatis(Ibatis)     框架运行的流程(Strust2) Struts2是一个基于MVC设计模式的Web应用框架，它本质上相当于一个servlet，在MVC设计模式中，Struts2作为控制器(Co">
+<meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2017-05-21T07:09:16.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="这只是个stust的测试">
+<meta name="twitter:description" content="复习笔记##Strust2  Java 中常用的框架 SSH Strust2 Spring Hibernate   SSM Spring MVC Spring(Spring boot) Mybatis(Ibatis)     框架运行的流程(Strust2) Struts2是一个基于MVC设计模式的Web应用框架，它本质上相当于一个servlet，在MVC设计模式中，Struts2作为控制器(Co">
+  
+    <link rel="alternate" href="/atom.xml" title="Hello,everyOne" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hello,everyOne</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-Stust2复习" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/05/21/Stust2复习/" class="article-date">
+  <time datetime="2017-05-21T07:09:16.000Z" itemprop="datePublished">2017-05-21</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/复习笔记/">复习笔记</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      这只是个stust的测试
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="复习笔记"><a href="#复习笔记" class="headerlink" title="复习笔记"></a>复习笔记</h1><p>##Strust2</p>
+<ol>
+<li><h2 id="Java-中常用的框架"><a href="#Java-中常用的框架" class="headerlink" title="Java 中常用的框架"></a>Java 中常用的框架</h2><ol>
+<li>SSH<ul>
+<li>Strust2</li>
+<li>Spring</li>
+<li>Hibernate</li>
+</ul>
+</li>
+<li>SSM<ul>
+<li>Spring MVC</li>
+<li>Spring(Spring boot)</li>
+<li>Mybatis(Ibatis)</li>
+</ul>
+</li>
+</ol>
+</li>
+<li><h2 id="框架运行的流程-Strust2"><a href="#框架运行的流程-Strust2" class="headerlink" title="框架运行的流程(Strust2)"></a>框架运行的流程(Strust2)</h2> <strong>Struts2是一个基于MVC设计模式的Web应用框架，它本质上相当于一个servlet，在MVC设计模式中，Struts2作为控制器(Controller)来建立模型与视图的数据交互</strong><ol>
+<li>客户端发送的请求</li>
+<li>请求被Filter拦截器阻拦(<strong>StrutsPrepareAndExecuteFilter</strong>)</li>
+<li>接着拦截器询问<strong>ActionMapper</strong>是否需要调用Action</li>
+<li>如果需要调用,将把请求的处理交给<strong>ActionPooxyAction(代理)</strong></li>
+<li><strong>ActionPooxyAction(代理)</strong>加载框架的配置文件,找到需要调用的Action</li>
+<li><strong>ActionPooxyAction(代理)</strong>创建一个<strong>ActionInvocation</strong>的实例</li>
+<li>在<strong>ActionInvocation</strong>的前后过程,会设计到拦截器的加载</li>
+<li>一旦Action执行完毕,<strong>ActionInvocation</strong>就会找strust.xml文件找寻结果</li>
+</ol>
+</li>
+<li><h2 id="过滤器和拦截器的区别"><a href="#过滤器和拦截器的区别" class="headerlink" title="过滤器和拦截器的区别"></a>过滤器和拦截器的区别</h2><ol>
+<li>过滤器可以拦截所有请求,但是拦截器只能拦截Action</li>
+<li>拦截器是基于Java的<strong>反射机制</strong>,而过滤器是基于<strong>回掉函数</strong></li>
+<li>拦截器可以访问Action的上下文,值栈,过滤器不行</li>
+<li>过滤器是基于Servlet容器的,拦截器不需要</li>
+<li>生命周期:过滤器的生命周期是只能在容器初始化的时候才会调用,但是拦截器器可以多次启用</li>
+<li>执行顺序 过滤器→拦截器→Action请求处理→拦截器→过滤器</li>
+</ol>
+</li>
+<li><h2 id="Strust2-xml配置详解"><a href="#Strust2-xml配置详解" class="headerlink" title="Strust2.xml配置详解"></a>Strust2.xml配置详解</h2><ol>
+<li>package</li>
+</ol>
+<ul>
+<li>name__唯一标识,不可重复__</li>
+<li>namespac <strong>和Acton中的Name标签组合起来可以构成项目的访问路径</strong></li>
+<li>exends 继承,可以继承于别的包,通常使用Strust.default</li>
+<li>absract 抽象,表明是用于继承的类</li>
+</ul>
+<ol start="2">
+<li>Action</li>
+</ol>
+<ul>
+<li>name <strong>和Package中的Name标签组合起来可以构成项目的访问路径</strong></li>
+<li>class <strong>内容是被Action对象的全类名</strong></li>
+<li>method <strong>用于指定是类中的某一个方法</strong></li>
+</ul>
+<ol start="3">
+<li>result</li>
+</ol>
+<ul>
+<li>type <strong>指定是使用哪一种方式经行跳转(如forward,重定向,默认使用重定向),不需要加工程名</strong><ul>
+<li>dispatcher 转发到Jsp</li>
+<li>chain Actio转发</li>
+<li>redirectAction 重定向到Action</li>
+<li>rediret</li>
+</ul>
+</li>
+<li>name <strong>用于和Action中方法的返回值进行匹配</strong></li>
+</ul>
+</li>
+<li><h2 id="Action的创建方式"><a href="#Action的创建方式" class="headerlink" title="Action的创建方式"></a>Action的创建方式</h2><ol>
+<li>创建一个普通的pojo类 <strong>什么也不做,不需要继承也不需要实现(优点是耦合度很低,但是什么都需要我们自己完成)</strong></li>
+<li>实现接口 Action <strong>耦合度底,在Action接口中定义了五种strtus2的逻辑视图名称，它们可以被框架识别。缺点:功能还需要我们来完成</strong><ul>
+<li>接口自带五个常量(字段)<ul>
+<li>Error 错误试图</li>
+<li>input 是Strust2中拦截器代理发生错误的试图</li>
+<li>login 一个登陆视图,可以在权限操作中使用</li>
+<li>none  它代表的是null,什么都不会做</li>
+<li>success 成功视图</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>继承ActtionSupp类 <strong>优点:具有了丰富的功能，表单校验，错误信息设置，国际化功能。缺点:耦合度高我们在开发中使用继承ActionSupport这种方案比较多。</strong></li>
+</ol>
+</li>
+<li><h2 id="使用Strust封装数据"><a href="#使用Strust封装数据" class="headerlink" title="使用Strust封装数据"></a>使用Strust封装数据</h2><ol>
+<li>属性驱动<ul>
+<li>在类中创建字段,但是需要和页面中的name名字一致,并且提供getter方法</li>
+<li>如果是一个get的一个对象,我们需要在页面中将名字设置为 <strong>对象名+对象的属性名称</strong> (不建议使用)</li>
+</ul>
+</li>
+<li>模型驱动<ul>
+<li>我们需要实现一个接口 ModelDriver<t> 然后在类中实现方法getModel方法</t></li>
+<li>需要在类中new出该类</li>
+</ul>
+</li>
+</ol>
+</li>
+<li><h2 id="Stust2如何获得ServletApi"><a href="#Stust2如何获得ServletApi" class="headerlink" title="Stust2如何获得ServletApi"></a>Stust2如何获得ServletApi</h2><ol>
+<li>使用注入,例如实现接口HttpServletRequstAware 然后在类中声明出来需要的对象,然后在重写的方法中实现.this.request = request 即可,原理是拦截器中的一个拦截器赋予的</li>
+<li>Stusst2api获取<ul>
+<li>ServletActoinContext获取 request , session , response , ServletContexxt</li>
+</ul>
+</li>
+</ol>
+</li>
+<li><h2 id="OGNL表达式"><a href="#OGNL表达式" class="headerlink" title="OGNL表达式"></a>OGNL表达式</h2><ul>
+<li><strong>OGNL是Object-Graph Navigation Language(对象图导航语言)的缩写，它是一种功能强大的表达式语言，通过它简单一致的表达式语法，可以存取对象的任意属性，调用对象的方法，遍历整个对象的结构图，实现字段类型转化等功能。它使用相同的表达式去存取对象的属性。</strong></li>
+</ul>
+<ol>
+<li>Strust 集成了Ognl表达式,Ognl本来也是一个项目,可以单独使用</li>
+<li>Ognl使用必须有三要素<ul>
+<li>Ognl表达式</li>
+<li>Ognl上下文,OgnlContext</li>
+<li>Root</li>
+</ul>
+</li>
+<li>取值 <strong>如果在非Root区中取值是需要加#号的</strong></li>
+</ol>
+</li>
+<li>##值栈(ValueStatck)<ul>
+<li>是一个容器,然后是用于储存数据,和Ognl配合用于数据显示,里面包括了Action对象的所有数据操作和Tomcat的数据(requst,Session等等) </li>
+<li>一个request → Action → ActionContext → ValueStatck</li>
+<li>存储机构<ol>
+<li>root区<ol>
+<li>CompoundRoot(<strong>其实是一个ArrayList的子类</strong>),中间装了Action的数据<ul>
+<li>自动填充 既整个Action对象,包括了Model也会被填充进去</li>
+<li>手动加入的 可以使用set方法或者是put,我们一般使用set</li>
+<li>他的进出方式是属于一个压栈,</li>
+</ul>
+</li>
+<li>context 一个Map集合<ul>
+<li>key是request,session,application(servletcontext),value是一个map集合,里面装了名字和具体的属性</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>值栈的获取<ol>
+<li>使用ActionContext.getContext.getValueStatck</li>
+<li>从request中获取值栈(<strong>因为就是存储到request中</strong>)</li>
+</ol>
+</li>
+<li>值栈中值的获取<ol>
+<li>在root区中,如果是使用set方法存入的话,直接使用key的名字即可</li>
+<li>如果是root区中按照索引取,例如 <strong>&lt;S:property:’[0].top’&gt;</strong></li>
+<li>在Context区可以使用 <strong>&lt;S:property:’#key’&gt;</strong></li>
+<li>在context区中获取域对象的值 <strong>&lt;S:property:’#request.key’&gt;</strong></li>
+<li>在context区中拿到root区的值,这两个区是相互引用的,可以在Context区中调用到root区的值</li>
+</ol>
+</li>
+<li>拦截器介绍(<strong>Interceptor</strong>)<ul>
+<li>Struts2中的interceptor它是基于spring aop思想，而aop思想它本质上是通过动态代理来实现。我们strtus2的拦截器它主要是拦截Action的操作，在action的执行前或执行后进行一些其它的功能操作。拦截器链（拦截器栈）简单说，就是可以将多个拦截器形成一个链，在访问它们时依次访问。</li>
+<li>如何去生成一个拦截器?<ul>
+<li>让一个类实现Interceptor接口(<strong>strust中的Xwork包,不是原生的拦截器的接口</strong>),然后重写里面的方法.<ul>
+<li>strust2中配置格式如下在<package>标签中<interceptors><br>   <interceptor name="自定义的名字,但是需要和Action中的引用匹配上" class="com.itheima.web.interceptor.Myinter"><br>   </interceptor><br></interceptors></package></li>
+<li>值得注意的是需要在Action中引用拦截器再次引用strust-default,因为引用外部的拦截器会使原本的拦截器失效</li>
+<li>或者我们可以在拦截器中声明了引用了默认拦截器,这样我们就不需要在Action中再次引用,但是我认为这样不太灵活</li>
+</ul>
+</li>
+<li>继承一个抽象类(<strong>MethodFilterInterceptor</strong>)并且重写其中的方法<strong>doIntercept</strong>实际上也是实现Interceptor接口<ul>
+<li>实现该接口会有一个类<strong>ActionInvocation</strong>,调用其中的<strong>invoke</strong>方法可以将程序放行</li>
+<li>见名知意,这个实现类可以具体的去描述要拦截的某一个方法,我们可以在Strust2.xml进行配置,在拦截器<interceptor>标签中可以使用<param name="includeMethods">中间的text中可以指定实现的方法,或者是<strong>excludeMethods</strong>来过滤一些方法</interceptor></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>关于Stust2的文件上传<ol>
+<li>三个要素<ol>
+<li><strong>表单提交方式选择Post</strong></li>
+<li><strong>表单中的标签设置应该为<input type="file"></strong></li>
+<li><strong>还需要设置enctype=”multipart/form-data”</strong></li>
+</ol>
+</li>
+<li>在Action类中定义三个变量<ol>
+<li>Strig(在页面上写的路径)+upload</li>
+<li>string + uploadContextType</li>
+<li>uploadFileName</li>
+</ol>
+</li>
+<li>后续的详细的详细用法<ol>
+<li>使用xml设置文件上传大小的配置 <costant name="strust."> 默认值是2m</costant></li>
+</ol>
+</li>
+</ol>
+</li>
+</ul>
+</li>
+</ol>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/05/21/Stust2复习/" data-id="cjhfxey5400037072oqlkr1pi" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Servlet框架/">Servlet框架</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Stust/">Stust</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/复习/">复习</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2018/05/21/hello-world/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          Hello World
+        
+      </div>
+    </a>
+  
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/复习笔记/">复习笔记</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Servlet框架/">Servlet框架</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Stust/">Stust</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/复习/">复习</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/Servlet框架/" style="font-size: 10px;">Servlet框架</a> <a href="/tags/Stust/" style="font-size: 10px;">Stust</a> <a href="/tags/复习/" style="font-size: 10px;">复习</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/05/">May 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/05/">May 2017</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2018/05/21/hello-world/">Hello World</a>
+          </li>
+        
+          <li>
+            <a href="/2017/05/21/Stust2复习/">这只是个stust的测试</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2018 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+
+
+  </div>
+</body>
+</html>
